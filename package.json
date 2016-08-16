@@ -1,0 +1,18 @@
+{
+  "name": "gulp-symlink-subdir-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulpit": "npm run clean && gulp images",
+    "clean": "rimraf output"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "path": "^0.12.7",
+    "rimraf": "^2.5.4"
+  }
+}
